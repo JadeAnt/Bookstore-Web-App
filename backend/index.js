@@ -9,7 +9,7 @@ const app = express();
 
 app.get('/',(request,response)=>{
     console.log(request);
-    return response.status(234).send("Welcome to Mern Stack tutorial");
+    return response.status(234).send("Test");
 });
 
 // Middleware for parsing request body
